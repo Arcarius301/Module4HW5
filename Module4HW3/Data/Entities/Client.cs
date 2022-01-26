@@ -13,6 +13,6 @@ namespace Module4HW3.Data.Entities
         public string MiddleName { get; set; }
         public string LastName { get; set; }
         public DateTime? DateOfBirth { get; set; }
-        public List<Project> Projects { get; set; }
+        public List<Project> Projects { get; set; } = new List<Project>();
     }
 }
